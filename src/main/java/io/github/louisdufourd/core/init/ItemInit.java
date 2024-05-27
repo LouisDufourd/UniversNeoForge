@@ -24,4 +24,5 @@ public class ItemInit {
         Univers.LOG.info("Registering Items");
         ITEMS.register(bus);
     }
+
 }
