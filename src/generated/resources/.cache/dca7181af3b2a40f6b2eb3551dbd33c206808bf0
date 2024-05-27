@@ -1,0 +1,13 @@
+// 1.20.6	2024-05-27T21:55:05.5942656	Block States: univers
+19e8d673dfc4a647ce8123152807afd762377a7d assets/univers/blockstates/deepslate_platinum_ore.json
+28e77f13df3c95e4178b3818207bb9b44c682f28 assets/univers/blockstates/platinum_block.json
+e01f705bc654502c552768d83c3f4b644f3c05b6 assets/univers/blockstates/platinum_ore.json
+ef2eed490d14c207fd6794707087efbd1d174114 assets/univers/blockstates/raw_platinum_block.json
+eafa4dae1871fe50ee605e6755b216c134f6a5c4 assets/univers/models/block/deepslate_platinum_ore.json
+ebbb8dfb96e88a247d4237ef06da0f84227314d9 assets/univers/models/block/platinum_block.json
+41e4cc9eec005426404a1b9bf27fdc90a6af6e4a assets/univers/models/block/platinum_ore.json
+b3426397776f98a4f5667d13b8382ed512d83cf2 assets/univers/models/block/raw_platinum_block.json
+50509f051a794d06188ba523f4d5c3aae24831a1 assets/univers/models/item/deepslate_platinum_ore.json
+2181c82526d1836c1fe65aa2f53b1c410003c4dd assets/univers/models/item/platinum_block.json
+64c5f41395f1aadbc64a9f3f029cf62fddf64784 assets/univers/models/item/platinum_ore.json
+1f67b2ed5297e1bec4a4fc4c8f259a6c1826aaf6 assets/univers/models/item/raw_platinum_block.json

@@ -1,0 +1,5 @@
+// 1.20.6	2024-05-27T18:12:45.1621915	Loot Tables
+e51b6189fb7cb8822c103e6e87a137c0404e69ef data/univers/loot_tables/blocks/deepslate_platinum_ore.json
+f10da929d71c860fc28ec824099b7084cd1bb746 data/univers/loot_tables/blocks/platinum_block.json
+3d02c5482f1b66938044c47386db6474a379dfb9 data/univers/loot_tables/blocks/platinum_ore.json
+e0ead37eef46bb775c5928e6ddcfbbd8928510e7 data/univers/loot_tables/blocks/raw_platinum_block.json
