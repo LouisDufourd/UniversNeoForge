@@ -28,6 +28,13 @@ public class ModEnLangProvider extends LanguageProvider {
         addItem(ItemInit.MAGIC_INK, "Magic Ink");
         addItem(ItemInit.BLANK_SCROLL, "Blank Scroll");
 
+        //TOOLS
+        addItem(ItemInit.PLATINUM_SWORD, "Platinum Sword");
+        addItem(ItemInit.PLATINUM_PICKAXE, "Platinum Pickaxe");
+        addItem(ItemInit.PLATINUM_AXE, "Platinum Axe");
+        addItem(ItemInit.PLATINUM_SHOVEL, "Platinum Shovel");
+        addItem(ItemInit.PLATINUM_HOE, "Platinum Hoe");
+
         //BLOCKS
         addBlock(BlockInit.PLATINUM_BLOCK, "Platinum Block");
         addBlock(BlockInit.PLATINUM_ORE, "Platinum Ore");

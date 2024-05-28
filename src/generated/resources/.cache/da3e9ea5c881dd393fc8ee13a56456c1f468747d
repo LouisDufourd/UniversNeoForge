@@ -1,10 +1,15 @@
-// 1.20.6	2024-05-27T03:18:14.4999759	Item Models: univers
+// 1.20.6	2024-05-28T19:18:19.1411285	Item Models: univers
 0094026091da1ceae626f900c786f0b051ffd6c2 assets/univers/models/item/air_gem.json
 49f4356f10c21d120fdfdfc2db22e21e5cce4cf2 assets/univers/models/item/blank_scroll.json
 2b9e3cee3c7469bc38c8e557177aecdb03e32d97 assets/univers/models/item/earth_gem.json
 0e0bb99fb1fadfb9c9b6361b46111912c73d76f1 assets/univers/models/item/fire_gem.json
 1550942785d49d82c3d271bb837cb688b9d4cd2a assets/univers/models/item/magic_ink.json
+e7bf5d24f5bd6ea11cf9d4b75fc340a78ab95bae assets/univers/models/item/platinum_axe.json
+45e9bce5e65cd00ea120d4a75b6f126db94b8a53 assets/univers/models/item/platinum_hoe.json
 aec23355ab8dc15c4adc006f8a336ea96a965138 assets/univers/models/item/platinum_ingot.json
+c306707917266e9a554ccf5568cb29ab3b4fc9fa assets/univers/models/item/platinum_pickaxe.json
+642e6c379b90f0ba07d9f010882f3cd14f094856 assets/univers/models/item/platinum_shovel.json
 a269e5f550dc6ffc077b568409675add878a6161 assets/univers/models/item/platinum_stick.json
+643d5922b9e424136b9b0fb422bdd9d171d6bbbc assets/univers/models/item/platinum_sword.json
 541a88b133dcbf624d4c2a93a13ba1994348a854 assets/univers/models/item/raw_platinum.json
 9b6c9a379249139b91b7520547ca83797eeb44ec assets/univers/models/item/water_gem.json

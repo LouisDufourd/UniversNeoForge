@@ -28,6 +28,13 @@ public class ModFrLangProvider extends LanguageProvider {
         addItem(ItemInit.MAGIC_INK, "Encre Magic");
         addItem(ItemInit.BLANK_SCROLL, "Parchemin Vierge");
 
+        //TOOLS
+        addItem(ItemInit.PLATINUM_SWORD, "Épée En Platine");
+        addItem(ItemInit.PLATINUM_PICKAXE, "Pioche En Platine");
+        addItem(ItemInit.PLATINUM_AXE, "Hache En Platine");
+        addItem(ItemInit.PLATINUM_SHOVEL, "Pelle En Platine");
+        addItem(ItemInit.PLATINUM_HOE, "Houe En Platine");
+
         //BLOCKS
         addBlock(BlockInit.PLATINUM_BLOCK, "Bloc De Platine");
         addBlock(BlockInit.PLATINUM_ORE, "Minerai De Platine");

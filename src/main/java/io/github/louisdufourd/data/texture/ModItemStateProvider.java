@@ -25,6 +25,20 @@ public class ModItemStateProvider extends ItemModelProvider
         item(ItemInit.AIR_GEM.get());
         item(ItemInit.MAGIC_INK.get());
         item(ItemInit.BLANK_SCROLL.get());
+
+        //TOOLS
+        tool(ItemInit.PLATINUM_SWORD.get());
+        tool(ItemInit.PLATINUM_PICKAXE.get());
+        tool(ItemInit.PLATINUM_AXE.get());
+        tool(ItemInit.PLATINUM_SHOVEL.get());
+        tool(ItemInit.PLATINUM_HOE.get());
+    }
+
+    private void tool(Item item) {
+        String name = NameUtility.getItemName(item);
+        getBuilder(name)
+                .parent(getExistingFile(mcLoc("item/handheld")))
+                .texture("layer0", "item/" + name);
     }
 
     private void item(Item item) {

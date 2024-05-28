@@ -1,7 +1,6 @@
 package io.github.louisdufourd.data.recipe;
 
 import io.github.louisdufourd.Univers;
-import io.github.louisdufourd.data.DataGenerators;
 import io.github.louisdufourd.data.recipe.provider.FurnaceRecipeProvider;
 import io.github.louisdufourd.data.recipe.provider.NormalCraftingTableRecipeProvider;
 import net.minecraft.core.HolderLookup;

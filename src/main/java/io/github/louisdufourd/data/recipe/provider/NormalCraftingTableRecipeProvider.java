@@ -27,6 +27,61 @@ public class NormalCraftingTableRecipeProvider extends MainModRecipeProvider {
                 .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
                 .save(output, getModId("platinum_ingot_to_platinum_stick"));
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.PLATINUM_PICKAXE)
+                .define('#', ItemInit.PLATINUM_INGOT.get())
+                .define('|', ItemInit.PLATINUM_STICK.get())
+                .pattern("###")
+                .pattern(" | ")
+                .pattern(" | ")
+                .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
+                .save(output, getModId("platinum_pickaxe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.PLATINUM_SHOVEL)
+                .define('#', ItemInit.PLATINUM_INGOT.get())
+                .define('|', ItemInit.PLATINUM_STICK.get())
+                .pattern(" # ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
+                .save(output, getModId("platinum_shovel"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.PLATINUM_AXE)
+                .define('#', ItemInit.PLATINUM_INGOT.get())
+                .define('|', ItemInit.PLATINUM_STICK.get())
+                .pattern("## ")
+                .pattern("#| ")
+                .pattern(" | ")
+                .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
+                .save(output, getModId("platinum_axe_left"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.PLATINUM_AXE)
+                .define('#', ItemInit.PLATINUM_INGOT.get())
+                .define('|', ItemInit.PLATINUM_STICK.get())
+                .pattern(" ##")
+                .pattern(" |#")
+                .pattern(" | ")
+                .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
+                .save(output, getModId("platinum_axe_right"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.PLATINUM_SWORD)
+                .define('#', ItemInit.PLATINUM_INGOT.get())
+                .define('|', ItemInit.PLATINUM_STICK.get())
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" | ")
+                .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
+                .save(output, getModId("platinum_sword"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemInit.PLATINUM_HOE)
+                .define('#', ItemInit.PLATINUM_INGOT.get())
+                .define('|', ItemInit.PLATINUM_STICK.get())
+                .pattern("## ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .unlockedBy("has_item", has(ItemInit.PLATINUM_INGOT.get()))
+                .save(output, getModId("platinum_hoe"));
+
+
         //ShapelessRecipeBuilder can be place however you want like an iron block.
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ItemInit.PLATINUM_INGOT.get(), 9)
                 .requires(BlockInit.PLATINUM_BLOCK.get())

@@ -10,8 +10,13 @@
   "item.univers.earth_gem": "Gemme De Terre",
   "item.univers.fire_gem": "Gemme De Feu",
   "item.univers.magic_ink": "Encre Magic",
+  "item.univers.platinum_axe": "Hache En Platine",
+  "item.univers.platinum_hoe": "Houe En Platine",
   "item.univers.platinum_ingot": "Lingot De Platine",
+  "item.univers.platinum_pickaxe": "Pioche En Platine",
+  "item.univers.platinum_shovel": "Pelle En Platine",
   "item.univers.platinum_stick": "Bâton de Platine",
+  "item.univers.platinum_sword": "Épée En Platine",
   "item.univers.raw_platinum": "Platine Brut",
   "item.univers.water_gem": "Gemme D'Eau"
 }
