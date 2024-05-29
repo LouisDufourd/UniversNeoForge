@@ -32,6 +32,12 @@ public class ModItemStateProvider extends ItemModelProvider
         tool(ItemInit.PLATINUM_AXE.get());
         tool(ItemInit.PLATINUM_SHOVEL.get());
         tool(ItemInit.PLATINUM_HOE.get());
+
+        //ARMORS
+        item(ItemInit.PLATINUM_HELMET.get());
+        item(ItemInit.PLATINUM_CHESTPLATE.get());
+        item(ItemInit.PLATINUM_LEGGINGS.get());
+        item(ItemInit.PLATINUM_BOOTS.get());
     }
 
     private void tool(Item item) {

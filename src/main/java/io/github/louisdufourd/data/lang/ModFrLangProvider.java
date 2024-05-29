@@ -35,6 +35,12 @@ public class ModFrLangProvider extends LanguageProvider {
         addItem(ItemInit.PLATINUM_SHOVEL, "Pelle En Platine");
         addItem(ItemInit.PLATINUM_HOE, "Houe En Platine");
 
+        //ARMORS
+        addItem(ItemInit.PLATINUM_HELMET, "Casque En Platine");
+        addItem(ItemInit.PLATINUM_CHESTPLATE, "Plastron En Platine");
+        addItem(ItemInit.PLATINUM_LEGGINGS, "Jambières En Platine");
+        addItem(ItemInit.PLATINUM_BOOTS, "Bottes En Platine");
+
         //BLOCKS
         addBlock(BlockInit.PLATINUM_BLOCK, "Bloc De Platine");
         addBlock(BlockInit.PLATINUM_ORE, "Minerai De Platine");

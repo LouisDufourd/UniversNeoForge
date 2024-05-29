@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    " # ",
-    " # ",
+    "## ",
+    "#| ",
     " | "
   ],
   "result": {
     "count": 1,
-    "id": "univers:platinum_sword"
+    "id": "univers:platinum_axe"
   }
 }

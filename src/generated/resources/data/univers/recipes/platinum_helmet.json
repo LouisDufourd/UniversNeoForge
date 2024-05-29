@@ -1,21 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "#": {
       "item": "univers:platinum_ingot"
-    },
-    "|": {
-      "item": "univers:platinum_stick"
     }
   },
   "pattern": [
-    " ##",
-    " |#",
-    " | "
+    "###",
+    "# #"
   ],
   "result": {
     "count": 1,
-    "id": "univers:platinum_axe"
+    "id": "univers:platinum_helmet"
   }
 }

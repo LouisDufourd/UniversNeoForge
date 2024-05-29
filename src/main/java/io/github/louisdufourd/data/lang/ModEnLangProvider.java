@@ -35,6 +35,12 @@ public class ModEnLangProvider extends LanguageProvider {
         addItem(ItemInit.PLATINUM_SHOVEL, "Platinum Shovel");
         addItem(ItemInit.PLATINUM_HOE, "Platinum Hoe");
 
+        //ARMORS
+        addItem(ItemInit.PLATINUM_HELMET, "Platinum Helmet");
+        addItem(ItemInit.PLATINUM_CHESTPLATE, "Platinum Chestplate");
+        addItem(ItemInit.PLATINUM_LEGGINGS, "Platinum Leggings");
+        addItem(ItemInit.PLATINUM_BOOTS, "Platinum Boots");
+
         //BLOCKS
         addBlock(BlockInit.PLATINUM_BLOCK, "Platinum Block");
         addBlock(BlockInit.PLATINUM_ORE, "Platinum Ore");

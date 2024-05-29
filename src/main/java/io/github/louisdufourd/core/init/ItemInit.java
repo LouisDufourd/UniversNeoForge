@@ -1,21 +1,14 @@
 package io.github.louisdufourd.core.init;
 
 import io.github.louisdufourd.Univers;
-import io.github.louisdufourd.core.material.CustomToolMaterial;
+import io.github.louisdufourd.core.material.ModArmorMaterial;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.neoforge.common.util.MutableHashedLinkedMap;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.jetbrains.annotations.NotNull;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class ItemInit {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Univers.MOD_ID);
@@ -31,11 +24,16 @@ public class ItemInit {
     public static final DeferredItem<Item> MAGIC_INK = ITEMS.register("magic_ink", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLANK_SCROLL = ITEMS.register("blank_scroll", () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword", () -> new SwordItem(CustomToolMaterial.PLATINUM, new Item.Properties().attributes(SwordItem.createAttributes(CustomToolMaterial.PLATINUM, 3, -2.4f)).stacksTo(1)));
-    public static final DeferredItem<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe", () -> new PickaxeItem(CustomToolMaterial.PLATINUM, new Item.Properties().attributes(PickaxeItem.createAttributes(CustomToolMaterial.PLATINUM, 1.0F, -2.8F)).stacksTo(1)));
-    public static final DeferredItem<Item> PLATINUM_AXE = ITEMS.register("platinum_axe", () -> new AxeItem(CustomToolMaterial.PLATINUM, new Item.Properties().attributes(AxeItem.createAttributes(CustomToolMaterial.PLATINUM, 5.0F, -3.0F)).stacksTo(1)));
-    public static final DeferredItem<Item> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel", () -> new ShovelItem(CustomToolMaterial.PLATINUM, new Item.Properties().attributes(ShovelItem.createAttributes(CustomToolMaterial.PLATINUM, 1.5F, -3.0F)).stacksTo(1)));
-    public static final DeferredItem<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe", () -> new HoeItem(CustomToolMaterial.PLATINUM, new Item.Properties().attributes(HoeItem.createAttributes(CustomToolMaterial.PLATINUM, -3.0F, 0.0F)).stacksTo(1)));
+    public static final DeferredItem<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword", () -> new SwordItem(TierInit.PLATINUM, new Item.Properties().attributes(SwordItem.createAttributes(TierInit.PLATINUM, 3, -2.4f)).stacksTo(1)));
+    public static final DeferredItem<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe", () -> new PickaxeItem(TierInit.PLATINUM, new Item.Properties().attributes(PickaxeItem.createAttributes(TierInit.PLATINUM, 1.0F, -2.8F)).stacksTo(1)));
+    public static final DeferredItem<Item> PLATINUM_AXE = ITEMS.register("platinum_axe", () -> new AxeItem(TierInit.PLATINUM, new Item.Properties().attributes(AxeItem.createAttributes(TierInit.PLATINUM, 5.0F, -3.0F)).stacksTo(1)));
+    public static final DeferredItem<Item> PLATINUM_SHOVEL = ITEMS.register("platinum_shovel", () -> new ShovelItem(TierInit.PLATINUM, new Item.Properties().attributes(ShovelItem.createAttributes(TierInit.PLATINUM, 1.5F, -3.0F)).stacksTo(1)));
+    public static final DeferredItem<Item> PLATINUM_HOE = ITEMS.register("platinum_hoe", () -> new HoeItem(TierInit.PLATINUM, new Item.Properties().attributes(HoeItem.createAttributes(TierInit.PLATINUM, -3.0F, 0.0F)).stacksTo(1)));
+
+    public static final DeferredItem<Item> PLATINUM_HELMET = ITEMS.register("platinum_helmet", () -> new ArmorItem(ModArmorMaterial.PLATINUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(11))));
+    public static final DeferredItem<Item> PLATINUM_CHESTPLATE = ITEMS.register("platinum_chestplate", () -> new ArmorItem(ModArmorMaterial.PLATINUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(16))));
+    public static final DeferredItem<Item> PLATINUM_LEGGINGS = ITEMS.register("platinum_leggings", () -> new ArmorItem(ModArmorMaterial.PLATINUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15))));
+    public static final DeferredItem<Item> PLATINUM_BOOTS = ITEMS.register("platinum_boots", () -> new ArmorItem(ModArmorMaterial.PLATINUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(13))));
 
     public static void register(IEventBus bus) {
         Univers.LOG.info("Registering Items");
