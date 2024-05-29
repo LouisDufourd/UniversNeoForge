@@ -4,6 +4,7 @@ import io.github.louisdufourd.Univers;
 import io.github.louisdufourd.core.init.BlockInit;
 import io.github.louisdufourd.core.init.CreativeModTabInit;
 import io.github.louisdufourd.core.init.ItemInit;
+import io.github.louisdufourd.core.init.MobEffectInit;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
@@ -29,6 +30,10 @@ public class ModFrLangProvider extends LanguageProvider {
         addItem(ItemInit.BLANK_SCROLL, "Parchemin Vierge");
         addItem(ItemInit.SPEED_SCROLL, "Parchemin De Vitesse");
         addItem(ItemInit.FLY_SCROLL, "Parchemin De Vol");
+
+        //EFFECTS
+        addEffect(MobEffectInit.FLY_EFFECT, "Vol");
+        addEffect(MobEffectInit.EXP_BOOST_EFFECT, "Boost D'Experience");
 
         //TOOLS
         addItem(ItemInit.PLATINUM_SWORD, "Épée En Platine");

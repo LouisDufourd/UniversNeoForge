@@ -4,6 +4,7 @@ import io.github.louisdufourd.Univers;
 import io.github.louisdufourd.core.init.BlockInit;
 import io.github.louisdufourd.core.init.CreativeModTabInit;
 import io.github.louisdufourd.core.init.ItemInit;
+import io.github.louisdufourd.core.init.MobEffectInit;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
@@ -48,6 +49,10 @@ public class ModEnLangProvider extends LanguageProvider {
         addBlock(BlockInit.PLATINUM_ORE, "Platinum Ore");
         addBlock(BlockInit.DEEPSLATE_PLATINUM_ORE, "Deepslate Platinum Ore");
         addBlock(BlockInit.RAW_PLATINUM_BLOCK, "Raw Platinum Block");
+
+        //EFFECTS
+        addEffect(MobEffectInit.FLY_EFFECT, "Fly Effect");
+        addEffect(MobEffectInit.EXP_BOOST_EFFECT, "Exp Boost Effect");
 
         //CREATIVE TABS
         add(CreativeModTabInit.MAGIC_TAB_TITLE, "Magic");
