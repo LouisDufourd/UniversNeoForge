@@ -5,9 +5,7 @@ import io.github.louisdufourd.core.init.BlockInit;
 import io.github.louisdufourd.core.init.CreativeModTabInit;
 import io.github.louisdufourd.core.init.ItemInit;
 import net.minecraft.data.PackOutput;
-import net.minecraft.network.chat.Component;
 import net.neoforged.neoforge.common.data.LanguageProvider;
-import org.jetbrains.annotations.NotNull;
 
 public class ModEnLangProvider extends LanguageProvider {
 

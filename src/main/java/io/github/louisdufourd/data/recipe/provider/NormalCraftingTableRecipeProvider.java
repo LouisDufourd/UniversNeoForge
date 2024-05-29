@@ -7,7 +7,6 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Item;
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -152,6 +151,6 @@ public class NormalCraftingTableRecipeProvider extends MainModRecipeProvider {
     }
 
     private enum Type {
-        SWORD, AXE, SHOVEL, HOE, PICKAXE, HELMET, CHESTPLATE, LEGGINGS, BOOTS;
+        SWORD, AXE, SHOVEL, HOE, PICKAXE, HELMET, CHESTPLATE, LEGGINGS, BOOTS
     }
 }
