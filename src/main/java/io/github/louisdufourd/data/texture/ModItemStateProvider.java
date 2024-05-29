@@ -24,7 +24,6 @@ public class ModItemStateProvider extends ItemModelProvider
         item(ItemInit.EARTH_GEM.get());
         item(ItemInit.AIR_GEM.get());
         item(ItemInit.MAGIC_INK.get());
-        item(ItemInit.BLANK_SCROLL.get());
 
         //TOOLS
         tool(ItemInit.PLATINUM_SWORD.get());
@@ -40,7 +39,9 @@ public class ModItemStateProvider extends ItemModelProvider
         item(ItemInit.PLATINUM_BOOTS.get());
 
         //SCROLLS
+        item(ItemInit.BLANK_SCROLL.get());
         writtenScrollItem(ItemInit.SPEED_SCROLL.get());
+        writtenScrollItem(ItemInit.FLY_SCROLL.get());
     }
 
     private void tool(Item item) {

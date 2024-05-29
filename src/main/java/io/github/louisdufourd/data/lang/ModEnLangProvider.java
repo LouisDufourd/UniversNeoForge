@@ -28,6 +28,7 @@ public class ModEnLangProvider extends LanguageProvider {
         //SCROLLS
         addItem(ItemInit.BLANK_SCROLL, "Blank Scroll");
         addItem(ItemInit.SPEED_SCROLL, "Speed Scroll");
+        addItem(ItemInit.FLY_SCROLL, "Fly Scroll");
 
         //TOOLS
         addItem(ItemInit.PLATINUM_SWORD, "Platinum Sword");

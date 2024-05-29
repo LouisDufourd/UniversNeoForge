@@ -28,6 +28,7 @@ public class ModFrLangProvider extends LanguageProvider {
         //SCROLLS
         addItem(ItemInit.BLANK_SCROLL, "Parchemin Vierge");
         addItem(ItemInit.SPEED_SCROLL, "Parchemin De Vitesse");
+        addItem(ItemInit.FLY_SCROLL, "Parchemin De Vol");
 
         //TOOLS
         addItem(ItemInit.PLATINUM_SWORD, "Épée En Platine");

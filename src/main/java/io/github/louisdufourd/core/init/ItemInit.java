@@ -2,7 +2,8 @@ package io.github.louisdufourd.core.init;
 
 import io.github.louisdufourd.Univers;
 import io.github.louisdufourd.core.material.ModArmorMaterial;
-import io.github.louisdufourd.item.SpeedSrollItem;
+import io.github.louisdufourd.item.FlyScrollItem;
+import io.github.louisdufourd.item.SpeedScrollItem;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -25,7 +26,8 @@ public class ItemInit {
     public static final DeferredItem<Item> MAGIC_INK = ITEMS.register("magic_ink", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLANK_SCROLL = ITEMS.register("blank_scroll", () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> SPEED_SCROLL = ITEMS.register("speed_scroll", SpeedSrollItem::new);
+    public static final DeferredItem<Item> SPEED_SCROLL = ITEMS.register("speed_scroll", SpeedScrollItem::new);
+    public static final DeferredItem<Item> FLY_SCROLL = ITEMS.register("fly_scroll", FlyScrollItem::new);
 
     public static final DeferredItem<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword", () -> new SwordItem(TierInit.PLATINUM, new Item.Properties().attributes(SwordItem.createAttributes(TierInit.PLATINUM, 3, -2.4f)).stacksTo(1)));
     public static final DeferredItem<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe", () -> new PickaxeItem(TierInit.PLATINUM, new Item.Properties().attributes(PickaxeItem.createAttributes(TierInit.PLATINUM, 1.0F, -2.8F)).stacksTo(1)));
@@ -52,7 +54,7 @@ public class ItemInit {
             event.accept(new ItemStack(BlockInit.RAW_PLATINUM_BLOCK.get().asItem()));
         }
 
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(new ItemStack(BlockInit.PLATINUM_BLOCK.get().asItem()));
         }
 
