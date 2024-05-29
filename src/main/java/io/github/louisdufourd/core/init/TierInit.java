@@ -18,7 +18,7 @@ public enum TierInit implements Tier {
     private final Supplier<Ingredient> repairMaterial;
     private final TagKey<Block> incorrectBlocksForDrops;
 
-    private TierInit(int maxUses, int enchantAbility, Supplier<Ingredient> repairMaterial, TagKey<Block> incorrectBlocksForDrops) {
+    TierInit(int maxUses, int enchantAbility, Supplier<Ingredient> repairMaterial, TagKey<Block> incorrectBlocksForDrops) {
         this.maxUses = maxUses;
         this.enchantAbility = enchantAbility;
         this.repairMaterial = repairMaterial;
