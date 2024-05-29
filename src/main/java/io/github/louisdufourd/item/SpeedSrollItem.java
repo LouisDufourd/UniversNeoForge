@@ -14,8 +14,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class SpeedSrollItem extends Item {
 
-    public SpeedSrollItem(Rarity rarity) {
-        super(new Properties().stacksTo(1).rarity(rarity));
+    public SpeedSrollItem() {
+        super(new Properties().stacksTo(1).rarity(Rarity.COMMON));
     }
 
     @Override

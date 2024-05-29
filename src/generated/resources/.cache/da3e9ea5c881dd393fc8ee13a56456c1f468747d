@@ -1,4 +1,4 @@
-// 1.20.6	2024-05-29T04:56:57.8522821	Item Models: univers
+// 1.20.6	2024-05-29T05:27:33.426105	Item Models: univers
 0094026091da1ceae626f900c786f0b051ffd6c2 assets/univers/models/item/air_gem.json
 49f4356f10c21d120fdfdfc2db22e21e5cce4cf2 assets/univers/models/item/blank_scroll.json
 2b9e3cee3c7469bc38c8e557177aecdb03e32d97 assets/univers/models/item/earth_gem.json
@@ -16,4 +16,5 @@ c306707917266e9a554ccf5568cb29ab3b4fc9fa assets/univers/models/item/platinum_pic
 a269e5f550dc6ffc077b568409675add878a6161 assets/univers/models/item/platinum_stick.json
 643d5922b9e424136b9b0fb422bdd9d171d6bbbc assets/univers/models/item/platinum_sword.json
 541a88b133dcbf624d4c2a93a13ba1994348a854 assets/univers/models/item/raw_platinum.json
+9592c5883d08013f75c7c149de21293a429f9492 assets/univers/models/item/speed_scroll.json
 9b6c9a379249139b91b7520547ca83797eeb44ec assets/univers/models/item/water_gem.json

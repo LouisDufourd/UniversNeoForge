@@ -25,7 +25,7 @@ public class ItemInit {
     public static final DeferredItem<Item> MAGIC_INK = ITEMS.register("magic_ink", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLANK_SCROLL = ITEMS.register("blank_scroll", () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> SPEED_SCROLL = ITEMS.register("speed_scroll", () -> new SpeedSrollItem(Rarity.COMMON));
+    public static final DeferredItem<Item> SPEED_SCROLL = ITEMS.register("speed_scroll", SpeedSrollItem::new);
 
     public static final DeferredItem<Item> PLATINUM_SWORD = ITEMS.register("platinum_sword", () -> new SwordItem(TierInit.PLATINUM, new Item.Properties().attributes(SwordItem.createAttributes(TierInit.PLATINUM, 3, -2.4f)).stacksTo(1)));
     public static final DeferredItem<Item> PLATINUM_PICKAXE = ITEMS.register("platinum_pickaxe", () -> new PickaxeItem(TierInit.PLATINUM, new Item.Properties().attributes(PickaxeItem.createAttributes(TierInit.PLATINUM, 1.0F, -2.8F)).stacksTo(1)));
