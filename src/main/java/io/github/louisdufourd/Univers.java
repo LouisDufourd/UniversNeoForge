@@ -8,7 +8,6 @@ import io.github.louisdufourd.data.DataGenerators;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @Mod("univers")
 public class Univers {

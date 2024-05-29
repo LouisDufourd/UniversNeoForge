@@ -24,7 +24,10 @@ public class ModFrLangProvider extends LanguageProvider {
         addItem(ItemInit.EARTH_GEM, "Gemme De Terre");
         addItem(ItemInit.AIR_GEM, "Gemme D'Air");
         addItem(ItemInit.MAGIC_INK, "Encre Magic");
+
+        //SCROLLS
         addItem(ItemInit.BLANK_SCROLL, "Parchemin Vierge");
+        addItem(ItemInit.SPEED_SCROLL, "Parchemin De Vitesse");
 
         //TOOLS
         addItem(ItemInit.PLATINUM_SWORD, "Épée En Platine");

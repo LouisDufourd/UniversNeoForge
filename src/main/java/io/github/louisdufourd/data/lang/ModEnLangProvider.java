@@ -24,7 +24,10 @@ public class ModEnLangProvider extends LanguageProvider {
         addItem(ItemInit.EARTH_GEM, "Earth Gem");
         addItem(ItemInit.AIR_GEM, "Air Gem");
         addItem(ItemInit.MAGIC_INK, "Magic Ink");
+
+        //SCROLLS
         addItem(ItemInit.BLANK_SCROLL, "Blank Scroll");
+        addItem(ItemInit.SPEED_SCROLL, "Speed Scroll");
 
         //TOOLS
         addItem(ItemInit.PLATINUM_SWORD, "Platinum Sword");

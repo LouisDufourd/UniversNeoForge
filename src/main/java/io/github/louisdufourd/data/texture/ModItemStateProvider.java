@@ -38,6 +38,9 @@ public class ModItemStateProvider extends ItemModelProvider
         item(ItemInit.PLATINUM_CHESTPLATE.get());
         item(ItemInit.PLATINUM_LEGGINGS.get());
         item(ItemInit.PLATINUM_BOOTS.get());
+
+        //SCROLLS
+        writtenScrollItem(ItemInit.SPEED_SCROLL.get());
     }
 
     private void tool(Item item) {

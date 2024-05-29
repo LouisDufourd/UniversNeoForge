@@ -4,19 +4,11 @@ import io.github.louisdufourd.Univers;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
 import org.jline.utils.Log;
-
-import java.util.List;
-import java.util.function.Supplier;
-import java.util.stream.Collectors;
 
 public class CreativeModTabInit {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Univers.MOD_ID);
@@ -47,6 +39,7 @@ public class CreativeModTabInit {
 
         builder.displayItems((itemDisplayParameters, output) -> {
             output.accept(new ItemStack(ItemInit.BLANK_SCROLL.get()));
+            output.accept(new ItemStack(ItemInit.SPEED_SCROLL.get()));
         });
 
         builder.icon(() -> new ItemStack(ItemInit.BLANK_SCROLL.get()));
